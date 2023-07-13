@@ -1,10 +1,13 @@
 # Python Shared Memory Script
 
 ## 개요
-2019년도 뉴로메카에서 작성한 협동 로봇 원격 모니터링 상용 웹 서비스인 IndyCARE-React 버전에 사용된 쉐어드 메모리 스크립트입니다. 
+2019년도 뉴로메카에서 작성한 협동 로봇 원격 모니터링 상용 웹 서비스인 IndyCARE-React 버전에 사용된 공유 메모리 스크립트입니다. 
+
+## Overview
+It is a robot battlefield memory control script store that visualizes data in conjunction with the IndyCARE React page, written in Python3 by Neuromeka on 2019.
 
 ## 기술 스택
-- Shared Memory
+- Shared Memory, python, react
 
 ## 로직
 협동 로봇은 RTOS가 설치된 컨트롤러 박스에서 다중 프로세스를 4000hz 무결성으로 동작하게 됩니다. \
